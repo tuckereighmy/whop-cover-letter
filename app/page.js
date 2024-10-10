@@ -9,13 +9,13 @@ import {
 } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Dashboard', href: '#', icon: '/assets/home.svg', current: true },
-  { name: 'Portfolio', href: 'https://www.teighmy22.com/', icon: '/assets/portfolio.svg', current: false },
-  { name: 'LinkedIn', href: 'https://www.linkedin.com/in/teighmy22/', icon: '/assets/linkedin.svg', current: false },
-  { name: 'SoundCloud', href: 'https://soundcloud.com/uckerighmy', icon: '/assets/soundcloud.svg', current: false },
+  { name: 'Dashboard', href: '#', icon: 'assets/home.svg', current: true },
+  { name: 'Portfolio', href: 'https://www.teighmy22.com/', icon: 'assets/portfolio.svg', current: false },
+  { name: 'LinkedIn', href: 'https://www.linkedin.com/in/teighmy22/', icon: 'assets/linkedin.svg', current: false },
+  { name: 'SoundCloud', href: 'https://soundcloud.com/uckerighmy', icon: 'assets/soundcloud.svg', current: false },
 ]
 const teams = [
-  { id: 1, name: 'Cover Letter', href: '/assets/Whop - Tucker Eighmy Cover Letter.pdf', initial: 'CL', current: false },
+  { id: 1, name: 'Cover Letter', href: 'assets/Whop - Tucker Eighmy Cover Letter.pdf', initial: 'CL', current: false },
 ]
 
 function classNames(...classes) {
@@ -60,7 +60,7 @@ export default function Example() {
                 <div className="flex h-16 shrink-0 items-center">
                   <img
                     alt="Your Company"
-                    src="/assets/tucklogo.svg"
+                    src="assets/tucklogo.svg"
                     className="h-8 w-auto"
                   />
                 </div>
@@ -130,7 +130,7 @@ export default function Example() {
             <div className="flex h-16 shrink-0 items-center pt-8">
               <img
                 alt="Your Company"
-                src="/assets/tucklogo.svg"
+                src="assets/tucklogo.svg"
                 className="h-6 w-auto"
               />
             </div>
@@ -193,7 +193,7 @@ export default function Example() {
                   >
                     <img
                       alt=""
-                      src="/assets/TE LOGO_whop.svg"
+                      src="assets/TE LOGO_whop.svg"
                       className="h-8 w-8 rounded-full bg-neutral-800"
                     />
                     <span className="sr-only">Your profile</span>
@@ -215,7 +215,7 @@ export default function Example() {
             <span className="sr-only">Your profile</span>
             <img
               alt=""
-              src="/assets/TE LOGO_whop.svg"
+              src="assets/TE LOGO_whop.svg"
               className="h-8 w-8 rounded-full bg-neutral-800"
             />
           </a>
@@ -227,7 +227,7 @@ export default function Example() {
     <div className="flex flex-col items-center mr-8">
         {/* First button and text */}
         <a
-          href="/assets/Whop - Tucker Eighmy Cover Letter.pdf"
+          href="assets/Whop - Tucker Eighmy Cover Letter.pdf"
           className="relative block w-32 h-32 rounded-3xl border-2 border-solid border-neutral-600 text-center hover:border-neutral-500 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 m-2 bg-neutral-800 text-white font-[Inter] flex items-center justify-center"
         >
           <span className="text-4xl font-bold text-neutral-400">CL</span>

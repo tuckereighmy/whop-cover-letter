@@ -1,11 +1,7 @@
 // next.config.js
+const isProd = process.env.NODE_ENV === 'production';
 
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-    output: 'export',
-    basePath: '/whop-cover-letter',
-    assetPrefix: '/whop-cover-letter/',
-  }
-  
-  module.exports = nextConfig
-  
+module.exports = {
+  basePath: isProd ? '/whop-cover-letter' : '',  // Your GitHub repo name
+  trailingSlash: true,  // Ensures correct static export paths
+};

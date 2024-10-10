@@ -4,10 +4,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d out",
+    "deploy": "gh-pages -d build",
+    
+    "dev": "next dev",
+    
     "start": "next start",
     "lint": "next lint"
   },
